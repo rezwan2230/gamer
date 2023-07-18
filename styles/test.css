@@ -195,6 +195,52 @@ a {
 
 
 
+/* Career section styles */
+.career {
+    padding: 0 10% 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    height: 821px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.career-info{
+    margin-top: -60px;
+}
+.designation-address {
+    color: white;
+    margin-top: 15PX;
+    display: flex;
+    justify-content: space-between;
+}
+.address {
+    text-align: right;
+}
+.career-title {
+    width: 426px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.career-description {
+    width: 680px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.career-btn {
+    padding: 18px 30px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20PX;
+}
 
 
 
@@ -204,25 +250,22 @@ a {
 
 
 
-
+/* For Mobile Device */
 
 @media screen and (max-width: 425px) {
+
+
+    /* header, Navigation and Banner */
     header {
-        background-image: url("/images/group14.png");
-        background-repeat: no-repeat;
         background-size: 80% 35%;
         background-position: bottom;
-        width: auto;
-        margin: auto;
         padding-bottom: 50px;
     }
-
     nav {
         flex-direction: column;
         padding: 0 10px;
         box-shadow: none;
     }
-
     .menus ul {
         flex-direction: column;
         padding-left: 22px;
@@ -231,30 +274,29 @@ a {
         flex-direction: column-reverse;
         margin-top: 50px;
     }
-
     .banner-img {
         width: 90%;
         margin: 0;
         padding-left: 15px;
     }
-
     .play {
         font-size: 30px;
         text-align: center;
         margin-top: 100px;
     }
-
     .goat {
         font-size: 55px;
         margin-top: -10px;
         text-align: center;
     }
-
     .banner-description {
         margin-top: -35px;
         padding-left: 40px;
         font-size: 15px;
     }
+
+
+    /* button styles */
     .btn {
         gap: 10px;
         margin-top: 20px;
@@ -265,12 +307,14 @@ a {
         padding: 10px 25px;
         font-weight: normal;
     }
+
+    /* Gamer Section styles */
     .gamer-container {
         flex-direction: column;
         margin-top: 120px;
-        background:none
+        background: none
     }
-    .gamer-img{
+    .gamer-img {
         width: 100%;
         margin: auto;
         height: 100%;
@@ -284,13 +328,54 @@ a {
         font-size: 18px;
         padding-left: 20px;
     }
-    
     .gamer-info {
         text-align: center;
     }
-
     .highlight {
         font-size: 21px;
     }
+
+
+    /* career section */
+    .career {
+        flex-direction: column;
+        margin-top: 80px;
+        width: auto;
+        height: 1050px;
+    }
+    .career-info{
+        margin-top: -10px;
+    }
+    .career-title {
+        font-size: 30px;
+        font-weight: 550;
+        text-align: left;
+        width: auto;
+        margin-bottom: 0px;
+    }
+    .career-image{
+        width: 100%;
+    }
+    .career-description {
+        width: 100%;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .career-btn {
+        padding: 15px 25px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
