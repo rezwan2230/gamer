@@ -299,7 +299,7 @@ a {
     padding: 0 10%;
     display: flex;
     align-items: center;
-    gap: 300px;
+    gap: 200px;
     justify-content: center;
     margin-top: 150px;
 }
@@ -350,6 +350,7 @@ a {
     bottom: 250px;
     right: 150px;
 }
+
 
 
 /* Career section styles */
@@ -407,11 +408,19 @@ a {
 
 
 
+
+
+.career-img{
+    width: auto;
+}
+
+
+
 /* All Games Advertising */
 .all-games {
     display: flex;
     padding: 0 6%;
-    gap: 20px;
+    /* gap: 20px; */
     row-gap: 10px;
 
     justify-content: center;
@@ -528,276 +537,3 @@ footer {
     margin-top: 30px;
     margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-For Mobile Device
-
-@media screen and (max-width: 425px) {
-
-
-    header, Navigation and Banner
-    header {
-        background-size: 80% 35%;
-        background-position: bottom;
-        padding-bottom: 50px;
-    }
-
-    nav {
-        flex-direction: column;
-        padding: 0 10px;
-        box-shadow: none;
-    }
-
-    .menus ul {
-        flex-direction: column;
-        padding-left: 22px;
-    }
-
-    .banner-container {
-        flex-direction: column-reverse;
-        margin-top: 50px;
-    }
-
-    .banner-img {
-        width: 90%;
-        margin: 0;
-        padding-left: 15px;
-    }
-
-    .play {
-        font-size: 30px;
-        text-align: center;
-        margin-top: 100px;
-    }
-
-    .goat {
-        font-size: 55px;
-        margin-top: -10px;
-        text-align: center;
-    }
-
-    .banner-description {
-        margin-top: -35px;
-        padding-left: 40px;
-        font-size: 15px;
-    }
-
-
-
-
-
-
-    button styles
-    .btn {
-        gap: 10px;
-        margin-top: 20px;
-        text-align: center;
-        padding-left: 35px;
-    }
-
-    .primary-btn {
-        padding: 10px 25px;
-        font-weight: normal;
-    }
-
-
-
-
-    Gamer Section styles
-    .gamer-container {
-        flex-direction: column;
-        margin-top: 120px;
-        background: none
-    }
-
-    .gamer-img {
-        width: 100%;
-        margin: auto;
-        height: 100%;
-    }
-
-    .gamer-title {
-        text-align: center;
-        font-size: 35px;
-    }
-
-    .gammer-description {
-        text-align: center;
-        font-size: 18px;
-        padding-left: 20px;
-    }
-
-    .gamer-info {
-        text-align: center;
-    }
-
-    .highlight {
-        font-size: 21px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    career section
-    .career {
-        flex-direction: column;
-        margin-top: 80px;
-        width: auto;
-        height: 1050px;
-    }
-
-    .career-info {
-        margin-top: -10px;
-    }
-
-    .career-title {
-        font-size: 30px;
-        font-weight: 550;
-        text-align: left;
-        width: auto;
-        margin-bottom: 0px;
-    }
-
-    .career-image {
-        width: 100%;
-    }
-
-    .career-description {
-        width: 100%;
-        font-size: 15px;
-        text-align: justify;
-    }
-
-    .career-btn {
-        padding: 15px 25px;
-        font-size: 12px;
-    }
-
-
-
-
-    Games advertising setion
-    .all-games {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        height: 400px;
-    }
-    .game {
-        gap: 10px;
-        width: 110px;
-        height: 50px;
-    }
-    .game:hover {
-        border: 1px solid #FF42A5;
-        border-radius: 50px;
-        color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-
-        .game-name {
-            color: #FF42A5;
-        }
-
-        transform: scale(1.01);
-    }
-    .game-name {
-        color: #0B0223;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .game img {
-        width: 30px;
-        height: 30px;
-    }
-
-
-
-
-
-    Footer Section
-    footer {
-        height: 780px;
-    }
-    .footer-imgage img {
-        width: 55px;
-        height: 28px;
-        padding-top: 5px;
-    }
-    .ft-g {
-        font-size: 30px;
-    }
-    .amer {
-        font-size: 30px;
-    }
-    .shortcut {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0px;
-        padding: 10px 35px 30px 30px;
-    }
-    .icons-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding-left: 90px;
-        row-gap: 25px;
-        column-gap: 0px;
-        margin-top: 10px;
-    }
-    .terms {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .ftr-text {
-        display: flex;
-        margin-top: -20px;
-    }
-    .sp {
-        display: block;
-    }
-} */
